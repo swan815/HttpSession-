@@ -9,4 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>validateColorServlet</servlet-name>
+    <servlet-class>com.lsy.javaweb.ValidateColorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>validateColorServlet</servlet-name>
+    <url-pattern>/validateColorServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
